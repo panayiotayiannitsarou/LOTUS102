@@ -169,7 +169,7 @@ st.download_button(
     mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
 )
 
-    data=stats_buffer,
+    
 
 # 🔄 Κουμπί: Δοκίμασε νέο αρχείο
 st.markdown("---")
