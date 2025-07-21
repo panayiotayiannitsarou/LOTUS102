@@ -164,6 +164,11 @@ stats_buffer.seek(0)
 
 st.download_button(
     label="📊 Κατέβασε Στατιστικά Όλων των Σεναρίων",
+    data=stats_buffer.getvalue(),
+    file_name="statistika_olon_twn_senariwn.xlsx",
+    mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+)
+
     data=stats_buffer,
 
 # 🔄 Κουμπί: Δοκίμασε νέο αρχείο
