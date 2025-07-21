@@ -216,4 +216,5 @@ with col1:
 with col2:
  st.markdown("**Για μια παιδεία που βλέπει το φως σε όλα τα παιδιά**")
 
-© 2025 • Δημιουργία: Παναγιώτα Γιαννίτσαρου")
+st.markdown("<p style='text-align: center;'>© 2025 • Δημιουργία: Παναγιώτα Γιαννίτσαρου</p>", unsafe_allow_html=True)
+
